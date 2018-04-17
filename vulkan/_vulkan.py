@@ -2,7 +2,7 @@ import collections as _collections
 import weakref as _weakref
 import sys
 
-from vulkan._vulkancache import ffi
+from vulkan.vulkan_build import ffi
 
 
 _weakkey_dict = _weakref.WeakKeyDictionary()
